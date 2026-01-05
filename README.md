@@ -125,7 +125,7 @@ Refresh data connections if required.
 🎯 Project Outcome
 
 This project showcases:
-Strong data cleaning and EDA skills
-Practical SQL analytics using PostgreSQL
-Business-focused Power BI dashboarding
-Clear insight communication through reports and presentations
+- Strong data cleaning and EDA skills
+- Practical SQL analytics using PostgreSQL
+- Business-focused Power BI dashboarding
+- Clear insight communication through reports and presentations
