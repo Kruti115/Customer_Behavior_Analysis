@@ -103,21 +103,21 @@ Highlighted customer segments with high purchase frequency and value.
 
 ▶️ How to Run This Project
 1. Clone the Repository
-git clone https://github.com/Kruti115/Customer_Behavior_Analysis
+git clone https://github.com/Kruti115/Customer_Behavior_Analysis.git
 
-2. Install Dependencies
+3. Install Dependencies
 pip install pandas numpy matplotlib seaborn
 
-3. Run Python Analysis
+4. Run Python Analysis
 Open the Jupyter Notebook.
 Execute cells sequentially for cleaning and EDA.
 
-4. PostgreSQL Setup
+5. PostgreSQL Setup
 Create a PostgreSQL database.
 Import the cleaned dataset.
 Run SQL queries from the /sql folder.
 
-5. Power BI Dashboard
+6. Power BI Dashboard
 Open the .pbix file in Power BI Desktop.
 
 Refresh data connections if required.
