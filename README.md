@@ -103,7 +103,7 @@ Highlighted customer segments with high purchase frequency and value.
 
 ▶️ How to Run This Project
 1. Clone the Repository
-git clone https://github.com/your-username/customer-shopping-analysis.git
+git clone https://github.com/Kruti115/Customer_Behavior_Analysis
 
 2. Install Dependencies
 pip install pandas numpy matplotlib seaborn
