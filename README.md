@@ -13,7 +13,7 @@ Analytical querying using PostgreSQL
 
 Interactive dashboard development in Power BI
 
-Insight reporting and presentation using Gamma
+Insight reporting and presentation
 
 The project demonstrates practical skills required for Data Analyst roles, including data handling, SQL analytics, visualization, and stakeholder communication.
 
