@@ -1,131 +1,268 @@
-# Customer_Behavior_Analysis
-Data Analytics Project : Customer Behavior Analysis using SQL, Power BI and Python
+# 📊 Customer Behavior Analysis
 
-📌 Overview
+An end-to-end data analytics project that analyzes customer shopping behavior to identify purchasing patterns, customer segments, product performance, and business opportunities using **Python, PostgreSQL, SQL, and Power BI**.
 
-This project performs an end-to-end data analytics workflow on a customer shopping behavior dataset to uncover purchasing patterns, customer preferences, and business insights.
 
-The analysis covers:
+## 📌 Project Overview
 
-Data cleaning and exploratory data analysis (EDA) using Python
+Understanding customer purchasing behavior is essential for improving customer retention, optimizing product strategies, and making data-driven business decisions.
 
-Analytical querying using PostgreSQL
+This project analyzes a customer shopping behavior dataset containing demographic information, purchasing history, product details, transaction information, discounts, subscriptions, and customer preferences.
 
-Interactive dashboard development in Power BI
+The project follows an end-to-end analytics workflow:
 
-Insight reporting and presentation
+**Data Cleaning → Exploratory Data Analysis → SQL Analysis → Power BI Dashboard → Business Insights**
 
-The project demonstrates practical skills required for Data Analyst roles, including data handling, SQL analytics, visualization, and stakeholder communication.
 
-📂 Dataset
+## 🎯 Objectives
 
-File: customer_shopping_behavior.csv
+The main objectives of this project are to:
 
-Description:
-The dataset contains customer demographic details, purchasing behavior, product attributes, and transaction-related information.
+* Analyze customer purchasing patterns
+* Identify high-value customer segments
+* Understand product and category performance
+* Analyze the impact of discounts and promotional offers
+* Compare subscribed and non-subscribed customers
+* Identify seasonal purchasing trends
+* Analyze customer purchase frequency
+* Build an interactive business intelligence dashboard
+* Generate actionable business recommendations
 
-Size:
-Rows: 3,900
-Columns: 18
 
-📊 Key Columns
-Customer ID – Unique customer identifier
-Age, Gender, Location – Customer demographics
-Item Purchased, Category, Size, Color, Season – Product details
-Purchase Amount (USD) – Transaction value
-Review Rating – Customer feedback score
-Subscription Status – Subscription membership indicator
-Shipping Type – Delivery method used
-Discount Applied, Promo Code Used – Promotion details
-Previous Purchases – Customer purchase history
-Payment Method – Mode of payment
-Frequency of Purchases – Buying frequency
+## 📂 Dataset
+**Dataset:** Customer Shopping Behavior Dataset
 
-🛠 Tools & Technologies
+**Size:**
 
-Python – Data loading, cleaning, EDA, Pandas, NumPy, Matplotlib, Seaborn
-PostgreSQL – SQL-based data analysis
-Power BI – Interactive dashboards and KPIs
-Gamma – Presentation (PPT) creation
-Jupyter Notebook – Analysis and documentation
-Git & GitHub – Version control and project hosting
+* 3,900 records
+* 18 columns
 
-🔍 Project Workflow
-1. Data Loading
-Imported CSV dataset using Pandas.
-Verified schema, data types, and data consistency.
+### Key Attributes
 
-2. Data Cleaning
-Checked and handled missing values.
-Removed duplicate records.
-Standardized categorical values.
-Converted columns to appropriate data types.
+| Category          | Attributes                                                      |
+| ----------------- | --------------------------------------------------------------- |
+| Customer          | Customer ID, Age, Gender, Location                              |
+| Product           | Item Purchased, Category, Size, Color, Season                   |
+| Transaction       | Purchase Amount, Review Rating                                  |
+| Marketing         | Discount Applied, Promo Code Used                               |
+| Customer Behavior | Subscription Status, Previous Purchases, Frequency of Purchases |
+| Operations        | Shipping Type, Payment Method                                   |
 
-3. Exploratory Data Analysis (EDA)
-Customer demographics analysis (age, gender, location).
-Purchase amount distribution and spending patterns.
-Category-wise and season-wise sales analysis.
-Impact of discounts, promo codes, and subscriptions.
-Visualization of trends and correlations.
 
-4. SQL Analysis (PostgreSQL)
-Loaded cleaned data into PostgreSQL.
-Performed analytical queries such as:
-Total and average purchase amount by category
-Customer segmentation by purchase frequency
-Subscription vs non-subscription behavior
-Discount and promo code impact analysis
+## 🛠️ Technologies Used
 
-5. Power BI Dashboard
-Designed an interactive dashboard featuring:
-Total revenue and average order value
-Top-selling categories and items
-Customer segmentation insights
-Filters by season, location, and gender
+### Programming & Analysis
 
-6. Reporting & Presentation
-Documented insights in a structured report.
-Created a professional presentation using Gamma to summarize findings and recommendations.
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
 
-📊 Dashboard Highlights
+### Database & SQL
 
-Revenue and purchase trends
-Category-wise and season-wise performance
-Subscription and discount impact analysis
-Interactive slicers for customer demographics
+* PostgreSQL
+* SQL
 
-📈 Key Insights & Results
+### Visualization
 
-Identified high-performing product categories and seasons.
-Analyzed how discounts and promo codes influence spending.
-Compared purchasing behavior of subscribed vs non-subscribed customers.
-Highlighted customer segments with high purchase frequency and value.
+* Microsoft Power BI
+* DAX
 
-▶️ How to Run This Project
-1. Clone the Repository
+### Other Tools
+
+* Git
+* GitHub
+
+
+## 🔄 Project Workflow
+
+### 1. Data Loading
+
+The dataset was loaded into Python using Pandas.
+
+Initial checks were performed to understand:
+
+* Dataset dimensions
+* Column names
+* Data types
+* Missing values
+* Duplicate records
+* Data consistency
+
+### 2. Data Cleaning
+
+The dataset was prepared for analysis by:
+
+* Checking missing values
+* Removing duplicate records
+* Standardizing categorical values
+* Correcting data types
+* Preparing analytical fields
+
+### 3. Exploratory Data Analysis
+
+EDA was performed to understand:
+
+* Customer demographics
+* Purchase amount distribution
+* Product category performance
+* Seasonal purchasing behavior
+* Customer purchasing frequency
+* Subscription behavior
+* Discount and promotional impact
+
+### 4. SQL Analysis
+
+The cleaned dataset was loaded into PostgreSQL for structured analytical querying.
+
+The SQL analysis investigates areas such as:
+
+* Revenue by category
+* Average purchase amount
+* Customer purchasing frequency
+* Subscription vs. non-subscription behavior
+* Discount impact
+* Promotional code usage
+* Customer segmentation
+
+### 5. Power BI Dashboard
+
+An interactive Power BI dashboard was created to provide a business-oriented view of the analysis.
+
+### Dashboard includes:
+
+* Total Revenue
+* Average Order Value
+* Product Category Performance
+* Top-Selling Products
+* Customer Segments
+* Subscription Analysis
+* Seasonal Trends
+* Demographic Analysis
+* Interactive filters and slicers
+
+### Filters
+
+Users can analyze the data using filters such as:
+
+* Season
+* Location
+* Gender
+* Customer segment
+
+
+## 📈 Key Insights
+
+The analysis identified several important customer behavior patterns:
+
+* High-performing product categories and seasons were identified.
+* Customer purchasing frequency varies significantly across customer segments.
+* Subscription status provides useful insight into differences in customer behavior.
+* Discounts and promotional offers can be analyzed in relation to purchase behavior.
+* Certain customer segments demonstrate higher purchase frequency and transaction value.
+
+
+## 💡 Business Recommendations
+
+Based on the analysis, businesses could:
+
+1. Focus retention strategies on high-value and frequent customers.
+2. Develop targeted campaigns for promising customer segments.
+3. Analyze discount effectiveness before expanding promotional campaigns.
+4. Strengthen subscription programs to improve customer retention.
+5. Align inventory and marketing strategies with seasonal demand.
+6. Use customer segmentation to personalize offers and recommendations.
+
+
+## 📁 Repository Structure
+
+```text
+Customer_Behavior_Analysis/
+│
+├── Consumer_Behavior_Analysis.sql
+├── Consumer_Behavior_Dashboard.pbix
+├── Consumer_Shopping_Behavior_Analysis.ipynb
+├── customer_shopping_behavior.csv
+├── Customer Shopping Behavior Analysis.pdf
+├── Customer-Shopping-Behavior-Analysis.pptx
+└── README.md
+```
+
+
+## ▶️ How to Run
+
+### Python Analysis
+
+Clone the repository:
+
+```bash
 git clone https://github.com/Kruti115/Customer_Behavior_Analysis.git
+```
 
-3. Install Dependencies
+Install required Python libraries:
+
+```bash
 pip install pandas numpy matplotlib seaborn
+```
 
-4. Run Python Analysis
-Open the Jupyter Notebook.
-Execute cells sequentially for cleaning and EDA.
+Open the Jupyter Notebook:
 
-5. PostgreSQL Setup
-Create a PostgreSQL database.
-Import the cleaned dataset.
-Run SQL queries from the /sql folder.
+```text
+Consumer_Shopping_Behavior_Analysis.ipynb
+```
 
-6. Power BI Dashboard
-Open the .pbix file in Power BI Desktop.
+Run the notebook cells sequentially.
 
-Refresh data connections if required.
+### SQL Analysis
 
-🎯 Project Outcome
+1. Install PostgreSQL.
+2. Create a PostgreSQL database.
+3. Import the cleaned dataset.
+4. Open `Consumer_Behavior_Analysis.sql`.
+5. Execute the queries.
 
-This project showcases:
-- Strong data cleaning and EDA skills
-- Practical SQL analytics using PostgreSQL
-- Business-focused Power BI dashboarding
-- Clear insight communication through reports and presentations
+### Power BI
+
+Open:
+
+```text
+Consumer_Behavior_Dashboard.pbix
+```
+
+using Power BI Desktop.
+
+
+## 📊 Project Deliverables
+
+* Python EDA notebook
+* PostgreSQL SQL analysis
+* Interactive Power BI dashboard
+* Analytical report
+* Project presentation
+
+
+## 🎯 Skills Demonstrated
+
+* Data Cleaning
+* Exploratory Data Analysis
+* Python
+* Pandas
+* SQL
+* PostgreSQL
+* Power BI
+* DAX
+* Data Visualization
+* Customer Segmentation
+* Business Analysis
+* Data Storytelling
+
+
+## 👩‍💻 Author
+
+**Kruti Gupta**
+
+GitHub: https://github.com/Kruti115
+
+LinkedIn: https://www.linkedin.com/in/kruti-gupta-data/
