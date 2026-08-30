@@ -150,14 +150,30 @@ An interactive Power BI dashboard was created to provide a business-oriented vie
 * Demographic Analysis
 * Interactive filters and slicers
 
+### Key Metrics
+
+- Total Customers
+- Average Purchase Amount
+- Average Review Rating
+
+### Analysis Areas
+
+- Subscription behavior
+- Revenue by category
+- Sales by category
+- Revenue by age group
+- Sales by age group
+- Customer demographics
+- Shipping preferences
+
 ### Filters
 
-Users can analyze the data using filters such as:
+The dashboard allows users to dynamically filter the analysis by:
 
-* Season
-* Location
-* Gender
-* Customer segment
+- Subscription Status
+- Gender
+- Category
+- Shipping Type
 
 
 ## 📈 Key Insights
