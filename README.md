@@ -130,6 +130,13 @@ The SQL analysis investigates areas such as:
 ### 5. Power BI Dashboard
 
 An interactive Power BI dashboard was created to provide a business-oriented view of the analysis.
+## 📸 Dashboard Preview
+
+### Dashboard Overview
+![Customer Behavior Dashboard](screenshots/dashboard_overview.png)
+
+### Interactive Filtered Analysis
+![Filtered Customer Behavior Analysis](screenshots/dashboard_filtered_analysis.png)
 
 ### Dashboard includes:
 
@@ -179,7 +186,11 @@ Based on the analysis, businesses could:
 ## 📁 Repository Structure
 
 ```text
-Customer_Behavior_Analysis/
+CCustomer_Behavior_Analysis/
+│
+├── screenshots/
+│   ├── dashboard_overview.png
+│   └── dashboard_filtered_analysis.png
 │
 ├── Consumer_Behavior_Analysis.sql
 ├── Consumer_Behavior_Dashboard.pbix
