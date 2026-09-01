@@ -13,6 +13,15 @@ The project follows an end-to-end analytics workflow:
 
 **Data Cleaning → Exploratory Data Analysis → SQL Analysis → Power BI Dashboard → Business Insights**
 
+## ⭐ Project Highlights
+
+- Analyzed **3,900 customer records**
+- Performed data cleaning and feature engineering using **Python/Pandas**
+- Stored and queried analytical data using **PostgreSQL**
+- Developed **10 business-focused SQL analyses**
+- Used **CTEs, CASE statements, subqueries, aggregations, and window functions**
+- Built an interactive **Power BI dashboard**
+- Identified customer spending, loyalty, subscription, product, discount, and demographic patterns
 
 ## 🎯 Objectives
 
@@ -175,28 +184,64 @@ The dashboard allows users to dynamically filter the analysis by:
 - Category
 - Shipping Type
 
+## Project Workflow
 
-## 📈 Key Insights
+```text
+Raw Customer Data
+        ↓
+Data Cleaning & Preprocessing
+        ↓
+Exploratory Data Analysis
+        ↓
+Feature Engineering
+        ↓
+PostgreSQL Database
+        ↓
+SQL Business Analysis
+        ↓
+Power BI Dashboard
+        ↓
+Business Insights & Recommendations
 
-The analysis identified several important customer behavior patterns:
+## 🔍 Key Business Insights
 
-* High-performing product categories and seasons were identified.
-* Customer purchasing frequency varies significantly across customer segments.
-* Subscription status provides useful insight into differences in customer behavior.
-* Discounts and promotional offers can be analyzed in relation to purchase behavior.
-* Certain customer segments demonstrate higher purchase frequency and transaction value.
+- **Revenue by Gender:** Male customers generated $157,890 in revenue compared with $75,191 from female customers, making male customers the larger revenue-contributing segment in this dataset.
+
+- **Discounted Purchases:** 839 purchases received a discount while exceeding the overall average purchase amount, highlighting that discounted transactions were not limited to low-value purchases.
+
+- **Shipping Behavior:** Customers using Express shipping had a higher average purchase amount ($60.48) than customers using Standard shipping ($58.46), a difference of approximately $2.02 per purchase.
+
+- **Subscription Behavior:** Non-subscribers generated substantially more total revenue ($170,436) than subscribers ($62,645). However, non-subscribers also represent a much larger customer population (2,847 vs. 1,053), so the revenue difference should be interpreted alongside customer volume.
+
+- **Customer Loyalty:** The dataset is dominated by loyal customers, with 3,116 customers classified as Loyal, compared with 701 Returning and 83 New customers. This indicates a strong concentration of customers with previous purchase activity.
+
+- **Repeat Purchasing:** Among repeat buyers, 2,518 were non-subscribers and 958 were subscribers. This suggests that repeat purchasing occurs substantially outside the subscription program.
+
+- **Discounting:** Hat had the highest discount rate at 50%, followed by Sneakers and Coat at 49%. Sweater and Pants also had relatively high discount rates of 48% and 47%, respectively.
+
+- **Category-Level Product Demand:** Jewelry led the Accessories category with 171 orders, while Blouse and Pants each recorded 171 orders in Clothing. Sandals led Footwear with 160 orders, and Jacket led Outerwear with 163 orders.
+
+- **Revenue by Age Group:** Young Adults generated the highest revenue at $62,143, followed by Middle-aged customers ($59,197), Adults ($55,978), and Seniors ($55,763). Revenue was relatively distributed across the age groups, with Young Adults contributing the most.
 
 
 ## 💡 Business Recommendations
 
-Based on the analysis, businesses could:
+Based on the analysis, the following actions could be considered:
 
-1. Focus retention strategies on high-value and frequent customers.
-2. Develop targeted campaigns for promising customer segments.
-3. Analyze discount effectiveness before expanding promotional campaigns.
-4. Strengthen subscription programs to improve customer retention.
-5. Align inventory and marketing strategies with seasonal demand.
-6. Use customer segmentation to personalize offers and recommendations.
+1. **Focus on high-revenue customer segments**  
+   Male customers generated the largest share of revenue in this dataset, suggesting an opportunity to understand their product preferences and purchasing behavior more deeply.
+
+2. **Investigate subscription conversion opportunities**  
+   Non-subscribers account for a much larger customer base and generate substantially more total revenue. Analyzing why repeat buyers remain unsubscribed could help identify opportunities for subscription conversion.
+
+3. **Prioritize high-performing products**  
+   Products such as Gloves, Sandals, and Boots achieved the highest average ratings, while several products also showed strong order volumes within their respective categories. These products could receive additional promotional or inventory attention.
+
+4. **Evaluate discount effectiveness**  
+   Products with high discount rates should be evaluated to determine whether discounts are increasing purchase volume sufficiently to justify the reduction in selling price.
+
+5. **Target younger customer segments**  
+   Young Adults generated the highest revenue among the analyzed age groups. Marketing campaigns and product recommendations could be evaluated for stronger engagement with this segment.
 
 
 ## 📁 Repository Structure
@@ -270,20 +315,36 @@ using Power BI Desktop.
 * Project presentation
 
 
-## 🎯 Skills Demonstrated
+## 🛠️ Skills Demonstrated
 
-* Data Cleaning
-* Exploratory Data Analysis
-* Python
-* Pandas
-* SQL
-* PostgreSQL
-* Power BI
-* DAX
-* Data Visualization
-* Customer Segmentation
-* Business Analysis
-* Data Storytelling
+### Python
+- Data cleaning and preprocessing
+- Exploratory Data Analysis (EDA)
+- Feature engineering
+- Data visualization
+- Pandas and NumPy
+
+### SQL & PostgreSQL
+- Aggregation and grouping
+- Filtering and sorting
+- Subqueries
+- CASE statements
+- Common Table Expressions (CTEs)
+- Window functions
+- Business-oriented SQL analysis
+
+### Power BI
+- Interactive dashboards
+- KPI development
+- Slicers and filters
+- Data visualization
+- Business insight presentation
+
+### Tools
+- Jupyter Notebook
+- PostgreSQL / pgAdmin 4
+- Power BI
+- Git & GitHub
 
 
 ## 👩‍💻 Author
