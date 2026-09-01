@@ -87,8 +87,6 @@ The main objectives of this project are to:
 
 ## 🔄 Project Workflow
 
-## Project Workflow
-
 ```text
 Raw Customer Data
         ↓
@@ -209,7 +207,7 @@ The dashboard allows users to dynamically filter the analysis by:
 
 - **Revenue by Gender:** Male customers generated $157,890 in revenue compared with $75,191 from female customers, making male customers the larger revenue-contributing segment in this dataset.
 
-- **Discounted Purchases:** 839 purchases were made with a discount while having a purchase amount above the overall average purchase amount. This indicates that discounts were associated with a substantial number of relatively higher-value purchases.
+- **Discounted Purchases:** 839 purchases received a discount while exceeding the overall average purchase amount, highlighting that discounted transactions were not limited to low-value purchases.
 
 - **Product Ratings:** Gloves received the highest average product rating at 3.86, followed by Sandals (3.84), Boots (3.82), Hat (3.80), and Skirt (3.78). Overall, the top-rated products had relatively close average ratings.
 
@@ -250,7 +248,7 @@ Based on the analysis, the following actions could be considered:
 ## 📁 Repository Structure
 
 ```text
-CCustomer_Behavior_Analysis/
+Customer_Behavior_Analysis/
 │
 ├── screenshots/
 │   ├── dashboard_overview.png
