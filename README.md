@@ -203,11 +203,14 @@ Power BI Dashboard
         ↓
 Business Insights & Recommendations
 
+
 ## 🔍 Key Business Insights
 
 - **Revenue by Gender:** Male customers generated $157,890 in revenue compared with $75,191 from female customers, making male customers the larger revenue-contributing segment in this dataset.
 
-- **Discounted Purchases:** 839 purchases received a discount while exceeding the overall average purchase amount, highlighting that discounted transactions were not limited to low-value purchases.
+- **Discounted Purchases:** 839 purchases were made with a discount while having a purchase amount above the overall average purchase amount. This indicates that discounts were associated with a substantial number of relatively higher-value purchases.
+
+- **Product Ratings:** Gloves received the highest average product rating at 3.86, followed by Sandals (3.84), Boots (3.82), Hat (3.80), and Skirt (3.78). Overall, the top-rated products had relatively close average ratings.
 
 - **Shipping Behavior:** Customers using Express shipping had a higher average purchase amount ($60.48) than customers using Standard shipping ($58.46), a difference of approximately $2.02 per purchase.
 
@@ -222,7 +225,6 @@ Business Insights & Recommendations
 - **Category-Level Product Demand:** Jewelry led the Accessories category with 171 orders, while Blouse and Pants each recorded 171 orders in Clothing. Sandals led Footwear with 160 orders, and Jacket led Outerwear with 163 orders.
 
 - **Revenue by Age Group:** Young Adults generated the highest revenue at $62,143, followed by Middle-aged customers ($59,197), Adults ($55,978), and Seniors ($55,763). Revenue was relatively distributed across the age groups, with Young Adults contributing the most.
-
 
 ## 💡 Business Recommendations
 
