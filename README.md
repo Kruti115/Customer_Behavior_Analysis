@@ -87,6 +87,26 @@ The main objectives of this project are to:
 
 ## 🔄 Project Workflow
 
+## Project Workflow
+
+```text
+Raw Customer Data
+        ↓
+Data Cleaning & Preprocessing
+        ↓
+Exploratory Data Analysis
+        ↓
+Feature Engineering
+        ↓
+PostgreSQL Database
+        ↓
+SQL Business Analysis
+        ↓
+Power BI Dashboard
+        ↓
+Business Insights & Recommendations
+```
+
 ### 1. Data Loading
 
 The dataset was loaded into Python using Pandas.
@@ -183,25 +203,6 @@ The dashboard allows users to dynamically filter the analysis by:
 - Gender
 - Category
 - Shipping Type
-
-## Project Workflow
-
-```text
-Raw Customer Data
-        ↓
-Data Cleaning & Preprocessing
-        ↓
-Exploratory Data Analysis
-        ↓
-Feature Engineering
-        ↓
-PostgreSQL Database
-        ↓
-SQL Business Analysis
-        ↓
-Power BI Dashboard
-        ↓
-Business Insights & Recommendations
 
 
 ## 🔍 Key Business Insights
